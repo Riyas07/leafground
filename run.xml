@@ -1,0 +1,7 @@
+<suite name="leaf">
+    <test name="test1">
+        <classes>
+            <class name="TestCases"/>
+        </classes>
+    </test>
+</suite>
