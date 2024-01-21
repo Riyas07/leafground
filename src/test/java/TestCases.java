@@ -16,6 +16,7 @@ public class TestCases extends  TestBase{
         driver.findElement(By.xpath("//li[@class='ui-menuitem-submenu'][1]")).click();
         driver.findElement(By.xpath("//li[@id='menuform:m_auth']/a")).click();
         driver.findElement(By.xpath("//*[@id=\"j_idt88:j_idt90\"]")).click();
+        System.out.println();
         String current=driver.getWindowHandle();
       Set<String> s=  driver.getWindowHandles();
       for (String ss:s)
