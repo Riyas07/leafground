@@ -33,6 +33,7 @@ public class TestBase {
     @AfterClass
     public void logout()
     {
+        System.out.println();
         driver.close();
     }
 }
